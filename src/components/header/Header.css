@@ -11,7 +11,7 @@
   width: 70%;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 
 .header__logos__first a,
@@ -53,4 +53,70 @@
 .header__logos__second img {
   width: 25%;
   margin-right: 10px;
+}
+
+.header__layer__three {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 50px;
+}
+
+.header__layer__three__logo {
+  width: 15%;
+  margin-right: 50px;
+}
+
+.header__layer__three__logo img {
+  width: 100%;
+}
+
+.header__layer__three__cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__layer__three__cta__search {
+  border: 1px solid rgb(182, 182, 182);
+  padding: 5px;
+  width: 30rem;
+  display: flex;
+}
+
+.header__layer__three__cta__search > input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.header__layer__three__cta__search__btn {
+  color: white;
+  background-color: var(--orange);
+  padding: 8px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.header__layer__three__cta__search__btn:hover {
+  background-color: var(--orange-hover);
+}
+
+.header__layer__three__cta__account,
+.header__layer__three__cta__help,
+.header__layer__three__cta__cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+  text-transform: capitalize;
+}
+
+.header__layer__three__cta .MuiSvgIcon-root {
+  margin-right: 5px;
 }
