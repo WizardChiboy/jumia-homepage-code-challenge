@@ -115,21 +115,15 @@
   justify-content: space-between;
   margin-right: 15px;
   text-transform: capitalize;
-<<<<<<< HEAD
   cursor: pointer;
-=======
->>>>>>> 217001d7a94a0750abc68816bc7f6356522d1130
 }
 
 .header__layer__three__cta .MuiSvgIcon-root {
   margin-right: 5px;
 }
-<<<<<<< HEAD
 
 .header__layer__three__cta__account:hover,
 .header__layer__three__cta__help:hover,
 .header__layer__three__cta__cart:hover {
   color: var(--orange);
 }
-=======
->>>>>>> 217001d7a94a0750abc68816bc7f6356522d1130
