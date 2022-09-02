@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+}
+
+.header > img {
+  width: 100%;
+}
+
+.header__logos {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__logos__first a,
+.header__logos__second {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  color: var(--orange);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.header__logos__first a p:hover {
+  text-decoration: underline;
+}
+
+.header__logos__first img {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.header__logos__second img:first-child {
+  opacity: 1;
+}
+
+.header__logos__second img {
+  opacity: 0.3;
+}
+
+.header__logos__second img:hover {
+  opacity: 1;
+}
+
+.header__logos__second img:first-child {
+  width: 18%;
+  margin-right: 10px;
+}
+
+.header__logos__second img {
+  width: 25%;
+  margin-right: 10px;
+}
