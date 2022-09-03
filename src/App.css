@@ -2,6 +2,7 @@ body {
   --background-color: #f5f5f5;
   --orange: #f68b1e;
   --orange-hover: #e97d11;
+  --banner-links: rgb(86, 86, 86);
 
   /* background color */
   background-color: var(--background-color);

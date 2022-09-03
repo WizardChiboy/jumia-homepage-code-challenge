@@ -1,0 +1,53 @@
+.banner {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__links {
+  background-color: white;
+  width: 20%;
+  height: fit-content;
+}
+
+.banner__slides {
+  width: 65%;
+  height: 100%;
+  margin: 0px 10px;
+}
+
+.banner__mini {
+  width: 20%;
+}
+
+.banner__links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--banner-links);
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 5px 5px;
+  text-transform: capitalize;
+  height: 100%;
+}
+
+.banner__links a:hover {
+  color: var(--orange);
+}
+
+.banner__links a > .MuiSvgIcon-root {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.banner__slides img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.banner__mini img {
+  border-radius: 5px;
+}
