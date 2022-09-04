@@ -15,6 +15,8 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import SportsCricketIcon from "@mui/icons-material/SportsCricket";
 import CarRentalIcon from "@mui/icons-material/CarRental";
 import MoreIcon from "@mui/icons-material/More";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 export {
   SearchIcon,
@@ -34,4 +36,6 @@ export {
   SportsCricketIcon,
   CarRentalIcon,
   MoreIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
 };

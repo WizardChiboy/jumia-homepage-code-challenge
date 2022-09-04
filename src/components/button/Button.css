@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--grey);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button .MuiSvgIcon-root {
+  color: white;
+}

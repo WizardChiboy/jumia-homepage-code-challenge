@@ -3,6 +3,7 @@ body {
   --orange: #f68b1e;
   --orange-hover: #e97d11;
   --banner-links: rgb(86, 86, 86);
+  --grey: #c7c7cd;
 
   /* background color */
   background-color: var(--background-color);

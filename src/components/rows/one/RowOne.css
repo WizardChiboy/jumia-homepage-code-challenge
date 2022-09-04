@@ -1,0 +1,44 @@
+.rowone {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px auto;
+  position: relative;
+}
+
+.rowone__prev {
+  position: sticky;
+  padding: 50px 10px;
+  left: 0;
+  background-color: white;
+  z-index: 9999;
+}
+
+.rowone__next {
+  position: sticky;
+  padding: 50px 10px;
+  right: 0;
+  background-color: white;
+  z-index: 9999;
+}
+
+.rowone::-webkit-scrollbar {
+  display: none;
+}
+
+.rowone > div img {
+  width: 120px;
+  margin: 15px;
+}
+
+.rowone > div:hover {
+  scale: 1.05;
+}
+
+.rowone__next:hover {
+  scale: 1;
+}
