@@ -14,6 +14,10 @@
   padding: 10px;
 }
 
+.header__logos__first {
+  padding: 0px 50px;
+}
+
 .header__logos__first a,
 .header__logos__second {
   display: flex;
