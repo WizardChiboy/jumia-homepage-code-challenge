@@ -3,6 +3,7 @@ import "./App.css";
 import Banner from "./components/banner/Banner";
 import Header from "./components/header/Header";
 import RowOne from "./components/rows/one/RowOne";
+import RowTwo from "./components/rows/two/RowTwo";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* rows */}
 
       <RowOne />
+      <RowTwo />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Next from "../../button/Next";
 import Prev from "../../button/Prev";
 import {

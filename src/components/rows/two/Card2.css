@@ -1,0 +1,42 @@
+.card__two {
+  padding: 10px;
+}
+
+.card__two:hover {
+  scale: 1.05;
+}
+
+.card__two__tag {
+  position: absolute;
+  color: var(--orange);
+  background: var(--orange-background);
+  padding: 3px;
+  top: 0;
+  left: 130px;
+}
+
+.card__two__img {
+  position: relative;
+  width: 100%;
+}
+
+.card__two__img img {
+  width: 170px;
+  margin: 2px;
+}
+
+.card__two__name {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.card__two__price {
+  font-weight: 800;
+}
+
+.card__two__price__slash {
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: line-through;
+}

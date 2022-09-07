@@ -1,0 +1,33 @@
+.rowtwo {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.rowtwo h3 {
+  padding: 3px 10px;
+  font-weight: bolder;
+}
+
+.rowtwo__cards {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px auto;
+  position: relative;
+}
+
+.rowtwo__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.rowtwo__prev {
+  position: sticky;
+  padding: 10px;
+  display: flex;
+  background-color: yellow;
+  z-index: 9999;
+  align-items: center;
+  top: 20px;
+}

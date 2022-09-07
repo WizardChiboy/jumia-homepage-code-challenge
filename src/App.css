@@ -4,6 +4,7 @@ body {
   --orange-hover: #e97d11;
   --banner-links: rgb(86, 86, 86);
   --grey: #c7c7cd;
+  --orange-background: #feefde;
 
   /* background color */
   background-color: var(--background-color);
