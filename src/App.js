@@ -3,6 +3,7 @@ import "./App.css";
 import Banner from "./components/banner/Banner";
 import Header from "./components/header/Header";
 import RowOne from "./components/rows/one/RowOne";
+import RowThree from "./components/rows/three/RowThree";
 import RowTwo from "./components/rows/two/RowTwo";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
       <RowOne />
       <RowTwo />
+      <RowThree />
     </div>
   );
 }

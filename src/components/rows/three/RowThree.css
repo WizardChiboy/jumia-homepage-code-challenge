@@ -1,0 +1,45 @@
+.rowthree {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.rowthree h3 {
+  padding: 3px 10px;
+  font-weight: bolder;
+}
+
+.rowthree__cards {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px auto;
+  position: relative;
+}
+
+.rowthree__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.rowthree__header__flash,
+.rowthree__header__timer {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.rowthree__header {
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.rowthree__header__more {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

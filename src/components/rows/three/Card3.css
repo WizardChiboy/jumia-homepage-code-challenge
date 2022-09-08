@@ -1,13 +1,13 @@
-.card__two {
+.card__three {
   padding: 10px;
   cursor: pointer;
 }
 
-.card__two:hover {
+.card__three:hover {
   scale: 1.01;
 }
 
-.card__two__tag {
+.card__three__tag {
   position: absolute;
   color: var(--orange);
   background: var(--orange-background);
@@ -16,28 +16,33 @@
   left: 130px;
 }
 
-.card__two__img {
+.card__three__img {
   position: relative;
   width: 180px;
 }
 
-.card__two__img img {
+.card__three__img img {
   width: 100%;
   margin: 2px;
 }
 
-.card__two__name {
+.card__three__name {
   font-size: 14px;
   font-weight: 700;
   text-transform: capitalize;
 }
 
-.card__two__price {
+.card__three__price {
   font-weight: 800;
 }
 
-.card__two__price__slash {
+.card__three__price__slash {
   font-size: 12px;
   font-weight: 800;
   text-decoration: line-through;
+}
+
+.card__three__items__left p {
+  font-size: 12px;
+  margin: 5px 0px;
 }

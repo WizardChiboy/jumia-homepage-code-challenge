@@ -21,13 +21,3 @@
 .rowtwo__cards::-webkit-scrollbar {
   display: none;
 }
-
-.rowtwo__prev {
-  position: sticky;
-  padding: 10px;
-  display: flex;
-  background-color: yellow;
-  z-index: 9999;
-  align-items: center;
-  top: 20px;
-}

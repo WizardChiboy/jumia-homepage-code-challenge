@@ -49,6 +49,22 @@ import RowTwo11 from "../../assets/row2/11.jpeg";
 import RowTwo12 from "../../assets/row2/12.jpeg";
 import RowTwo13 from "../../assets/row2/13.jpeg";
 
+// row three
+
+import RowThree1 from "../../assets/row3/1.jpeg";
+import RowThree2 from "../../assets/row3/2.jpeg";
+import RowThree3 from "../../assets/row3/3.jpeg";
+import RowThree4 from "../../assets/row3/4.jpeg";
+import RowThree5 from "../../assets/row3/5.jpeg";
+import RowThree6 from "../../assets/row3/6.jpeg";
+import RowThree7 from "../../assets/row3/7.jpeg";
+import RowThree8 from "../../assets/row3/8.jpeg";
+import RowThree9 from "../../assets/row3/9.jpeg";
+import RowThree10 from "../../assets/row3/10.jpeg";
+import RowThree11 from "../../assets/row3/11.jpeg";
+import RowThree12 from "../../assets/row3/12.jpeg";
+import RowThree13 from "../../assets/row3/13.jpeg";
+
 export {
   HeaderSlide,
   StarLogo,
@@ -92,4 +108,17 @@ export {
   RowTwo11,
   RowTwo12,
   RowTwo13,
+  RowThree1,
+  RowThree2,
+  RowThree3,
+  RowThree4,
+  RowThree5,
+  RowThree6,
+  RowThree7,
+  RowThree8,
+  RowThree9,
+  RowThree10,
+  RowThree11,
+  RowThree12,
+  RowThree13,
 };
