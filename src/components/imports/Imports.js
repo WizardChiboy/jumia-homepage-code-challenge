@@ -65,6 +65,15 @@ import RowThree11 from "../../assets/row3/11.jpeg";
 import RowThree12 from "../../assets/row3/12.jpeg";
 import RowThree13 from "../../assets/row3/13.jpeg";
 
+// row four
+
+import RowFour1 from "../../assets/row4/1.jpeg";
+import RowFour2 from "../../assets/row4/2.jpeg";
+import RowFour3 from "../../assets/row4/3.jpeg";
+import RowFour4 from "../../assets/row4/4.jpeg";
+import RowFour5 from "../../assets/row4/5.gif";
+import RowFour6 from "../../assets/row4/6.png";
+
 export {
   HeaderSlide,
   StarLogo,
@@ -121,4 +130,10 @@ export {
   RowThree11,
   RowThree12,
   RowThree13,
+  RowFour1,
+  RowFour2,
+  RowFour3,
+  RowFour4,
+  RowFour5,
+  RowFour6,
 };

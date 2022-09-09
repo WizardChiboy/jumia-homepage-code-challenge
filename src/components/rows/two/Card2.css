@@ -33,7 +33,7 @@
 }
 
 .card__two__price {
-  font-weight: 800;
+  font-family: var(--bold-font);
 }
 
 .card__two__price__slash {

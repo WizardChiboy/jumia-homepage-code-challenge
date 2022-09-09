@@ -15,6 +15,7 @@ import {
   RowThree9,
 } from "../../imports/Imports";
 import { ChevronRightIcon } from "../../material-icons/Icons";
+import Timer from "../../timer/Timer";
 import Card3 from "./Card3";
 import "./RowThree.css";
 
@@ -26,7 +27,10 @@ function RowThree() {
           <div className="rowthree__header__flash">Flash Sales</div>
 
           <div className="rowthree__header__timer">
-            Time Left : 19h : 14m : 20s
+            <Timer
+              date="december 27, 2022 11:00:00"
+              closedText={"game closed for this week"}
+            />
           </div>
 
           <div className="rowthree__header__more">

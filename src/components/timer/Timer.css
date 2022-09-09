@@ -1,0 +1,14 @@
+.timer__show {
+  display: flex;
+  width: 100%;
+}
+
+.timer__show p {
+  margin: auto 10px;
+  color: white;
+}
+
+.timer__show p span {
+  margin-left: 5px;
+  font-family: var(--bold-font);
+}

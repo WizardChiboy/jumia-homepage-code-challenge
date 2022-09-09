@@ -33,13 +33,18 @@
 }
 
 .card__three__price {
-  font-weight: 800;
+  font-family: var(--bold-font);
 }
 
 .card__three__price__slash {
   font-size: 12px;
   font-weight: 800;
   text-decoration: line-through;
+  width: 100%;
+}
+
+.card__three__price__slash.none {
+  width: 100%;
 }
 
 .card__three__items__left p {
