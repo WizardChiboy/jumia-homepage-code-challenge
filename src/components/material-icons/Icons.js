@@ -17,6 +17,7 @@ import CarRentalIcon from "@mui/icons-material/CarRental";
 import MoreIcon from "@mui/icons-material/More";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 export {
   SearchIcon,
@@ -38,4 +39,5 @@ export {
   MoreIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  KeyboardArrowUpIcon,
 };

@@ -1,0 +1,42 @@
+.rowseven {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.rowseven h3 {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: var(--bold-font);
+  font-weight: 400;
+}
+
+.rowseven__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowseven__card {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.rowseven__card img {
+  width: 100%;
+}
+
+.rowseven__card p {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: var(--bold-font);
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.rowseven__card:hover {
+  transform: scale(1.01);
+}

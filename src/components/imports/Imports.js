@@ -74,6 +74,50 @@ import RowFour4 from "../../assets/row4/4.jpeg";
 import RowFour5 from "../../assets/row4/5.gif";
 import RowFour6 from "../../assets/row4/6.png";
 
+// row five
+
+import RowFive1 from "../../assets/row5/1.jpg";
+import RowFive2 from "../../assets/row5/2.jpg";
+import RowFive3 from "../../assets/row5/3.jpg";
+import RowFive4 from "../../assets/row5/4.jpg";
+import RowFive5 from "../../assets/row5/5.jpg";
+import RowFive6 from "../../assets/row5/6.jpg";
+import RowFive7 from "../../assets/row5/7.jpg";
+import RowFive8 from "../../assets/row5/8.jpg";
+import RowFive9 from "../../assets/row5/9.jpg";
+import RowFive10 from "../../assets/row5/10.jpg";
+import RowFive11 from "../../assets/row5/11.jpg";
+import RowFive12 from "../../assets/row5/12.jpg";
+import RowFive13 from "../../assets/row5/13.jpg";
+
+// row six
+
+import Jumia_prime from "../../assets/row6/jumia-prime.png";
+import Jumia_pay from "../../assets/row6/jumia-pay.png";
+import Jumia_delivery from "../../assets/row6/free-delivery.png";
+import Jumia_food from "../../assets/row6/jumia-food.png";
+
+// row seven
+
+import RowSeven1 from "../../assets/row7/1.png";
+import RowSeven2 from "../../assets/row7/2.png";
+import RowSeven3 from "../../assets/row7/3.png";
+import RowSeven4 from "../../assets/row7/4.png";
+import RowSeven5 from "../../assets/row7/5.png";
+import RowSeven6 from "../../assets/row7/6.png";
+import RowSeven7 from "../../assets/row7/7.png";
+import RowSeven8 from "../../assets/row7/8.png";
+import RowSeven9 from "../../assets/row7/9.png";
+import RowSeven10 from "../../assets/row7/10.png";
+import RowSeven11 from "../../assets/row7/11.png";
+import RowSeven12 from "../../assets/row7/12.png";
+
+// row eight
+
+import RowEight1 from "../../assets/row8/1.gif";
+import RowEight2 from "../../assets/row8/2.png";
+import RowEight3 from "../../assets/row8/3.png";
+
 export {
   HeaderSlide,
   StarLogo,
@@ -136,4 +180,36 @@ export {
   RowFour4,
   RowFour5,
   RowFour6,
+  RowFive1,
+  RowFive2,
+  RowFive3,
+  RowFive4,
+  RowFive5,
+  RowFive6,
+  RowFive7,
+  RowFive8,
+  RowFive9,
+  RowFive10,
+  RowFive11,
+  RowFive12,
+  RowFive13,
+  Jumia_prime,
+  Jumia_pay,
+  Jumia_delivery,
+  Jumia_food,
+  RowSeven1,
+  RowSeven2,
+  RowSeven3,
+  RowSeven4,
+  RowSeven5,
+  RowSeven6,
+  RowSeven7,
+  RowSeven8,
+  RowSeven9,
+  RowSeven10,
+  RowSeven11,
+  RowSeven12,
+  RowEight1,
+  RowEight2,
+  RowEight3,
 };

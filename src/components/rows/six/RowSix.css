@@ -1,0 +1,27 @@
+.rowsix {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.rowsix__card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rowsix__card img {
+  width: 15%;
+  margin-right: 10px;
+}
+
+.rowsix__card p {
+  text-transform: capitalize;
+  font-family: var(--bold-font);
+}

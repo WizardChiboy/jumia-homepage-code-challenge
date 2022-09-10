@@ -1,0 +1,18 @@
+.scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--orange);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.scrolltop .MuiSvgIcon-root {
+  font-size: 30px;
+  color: white;
+}

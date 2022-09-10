@@ -1,4 +1,4 @@
-.rowfour {
+.roweight {
   background-color: white;
   width: 90%;
   margin: auto;
@@ -6,25 +6,25 @@
   padding: 10px 0px;
 }
 
-.rowfour h3 {
+.roweight h3 {
   text-align: center;
   padding: 10px;
   font-family: var(--bold-font);
   font-weight: 400;
 }
 
-.rowfour__ads {
+.roweight__ads {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.rowfour__ads img {
+.roweight__ads img {
   width: 33%;
   margin: 10px auto;
   cursor: pointer;
 }
 
-.rowfour__ads img:hover {
+.roweight__ads img:hover {
   transform: scale(1.01);
 }
