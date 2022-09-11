@@ -1,0 +1,12 @@
+.banner2 {
+  width: 90%;
+  margin: auto;
+}
+
+.banner2 h3 {
+  text-align: center;
+  font-weight: 400;
+  font-family: var(--bold-font);
+  padding: 10px;
+  background-color: white;
+}

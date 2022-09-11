@@ -1,0 +1,24 @@
+.roweleven {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.roweleven h3 {
+  padding: 3px 10px;
+  font-family: var(--bold-font);
+  font-weight: 400;
+}
+
+.roweleven__cards {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px auto;
+  position: relative;
+}
+
+.roweleven__cards::-webkit-scrollbar {
+  display: none;
+}

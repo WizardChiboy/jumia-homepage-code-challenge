@@ -1,0 +1,24 @@
+.rownine {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.rownine h3 {
+  padding: 3px 10px;
+  font-family: var(--bold-font);
+  font-weight: 400;
+}
+
+.rownine__cards {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px auto;
+  position: relative;
+}
+
+.rownine__cards::-webkit-scrollbar {
+  display: none;
+}

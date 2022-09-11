@@ -16,6 +16,7 @@ import Slide7 from "../../assets/home/slide7.gif";
 import Slide8 from "../../assets/home/slide8.gif";
 import Mini1 from "../../assets/home/mini1.png";
 import Mini2 from "../../assets/home/mini2.gif";
+import Brand_days from "../../assets/home/brand-days.jpeg";
 
 // row one images
 
@@ -118,6 +119,36 @@ import RowEight1 from "../../assets/row8/1.gif";
 import RowEight2 from "../../assets/row8/2.png";
 import RowEight3 from "../../assets/row8/3.png";
 
+// row nine
+
+import RowNine1 from "../../assets/row9/1.jpeg";
+import RowNine2 from "../../assets/row9/2.jpeg";
+import RowNine3 from "../../assets/row9/3.jpeg";
+import RowNine4 from "../../assets/row9/4.jpeg";
+import RowNine5 from "../../assets/row9/5.jpeg";
+import RowNine6 from "../../assets/row9/6.jpeg";
+import RowNine7 from "../../assets/row9/7.jpeg";
+import RowNine8 from "../../assets/row9/8.jpeg";
+import RowNine9 from "../../assets/row9/9.jpeg";
+import RowNine10 from "../../assets/row9/10.jpeg";
+
+// row ten
+
+import RowTen1 from "../../assets/row10/1.png";
+import RowTen2 from "../../assets/row10/2.png";
+import RowTen3 from "../../assets/row10/3.png";
+
+// row eleven
+
+import RowEleven1 from "../../assets/row11/1.jpeg";
+import RowEleven2 from "../../assets/row11/2.jpeg";
+import RowEleven3 from "../../assets/row11/3.jpeg";
+import RowEleven4 from "../../assets/row11/4.jpeg";
+import RowEleven5 from "../../assets/row11/5.jpeg";
+import RowEleven6 from "../../assets/row11/6.jpeg";
+import RowEleven7 from "../../assets/row11/7.jpeg";
+import RowEleven8 from "../../assets/row11/8.jpeg";
+
 export {
   HeaderSlide,
   StarLogo,
@@ -212,4 +243,26 @@ export {
   RowEight1,
   RowEight2,
   RowEight3,
+  RowNine1,
+  RowNine2,
+  RowNine3,
+  RowNine4,
+  RowNine5,
+  RowNine6,
+  RowNine7,
+  RowNine8,
+  RowNine9,
+  RowNine10,
+  RowTen1,
+  RowTen2,
+  RowTen3,
+  RowEleven1,
+  RowEleven2,
+  RowEleven3,
+  RowEleven4,
+  RowEleven5,
+  RowEleven6,
+  RowEleven7,
+  RowEleven8,
+  Brand_days,
 };

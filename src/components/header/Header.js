@@ -26,7 +26,7 @@ function Header() {
           <div className="header__logos__first">
             <a href="">
               <img src={StarLogo} alt="star logo" /> <p>sell on jumia</p>
-            </a>{" "}
+            </a>
           </div>
 
           <div className="header__logos__second">

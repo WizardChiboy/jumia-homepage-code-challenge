@@ -16,7 +16,6 @@ import {
 } from "../material-icons/Icons";
 import Links from "./Links";
 
-import { Carousel } from "react-responsive-carousel";
 import {
   Mini1,
   Mini2,
