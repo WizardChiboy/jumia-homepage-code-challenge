@@ -149,6 +149,118 @@ import RowEleven6 from "../../assets/row11/6.jpeg";
 import RowEleven7 from "../../assets/row11/7.jpeg";
 import RowEleven8 from "../../assets/row11/8.jpeg";
 
+// row twelve
+
+import RowTwelve1 from "../../assets/row12/1.jpeg";
+import RowTwelve2 from "../../assets/row12/2.jpeg";
+import RowTwelve3 from "../../assets/row12/3.jpeg";
+import RowTwelve4 from "../../assets/row12/4.jpeg";
+import RowTwelve5 from "../../assets/row12/5.jpeg";
+import RowTwelve6 from "../../assets/row12/6.jpeg";
+import RowTwelve7 from "../../assets/row12/7.jpeg";
+import RowTwelve8 from "../../assets/row12/8.jpeg";
+import RowTwelve9 from "../../assets/row12/9.jpeg";
+import RowTwelve10 from "../../assets/row12/10.jpeg";
+
+// row thirteen
+
+import RowThirteen1 from "../../assets/row13/1.jpeg";
+import RowThirteen2 from "../../assets/row13/2.jpeg";
+import RowThirteen3 from "../../assets/row13/3.jpeg";
+import RowThirteen4 from "../../assets/row13/4.jpeg";
+import RowThirteen5 from "../../assets/row13/5.jpeg";
+import RowThirteen6 from "../../assets/row13/6.jpeg";
+
+// row fourteen
+
+import RowFourteen1 from "../../assets/row14/1.png";
+import RowFourteen2 from "../../assets/row14/2.png";
+import RowFourteen3 from "../../assets/row14/3.png";
+import RowFourteen4 from "../../assets/row14/4.png";
+import RowFourteen5 from "../../assets/row14/5.png";
+import RowFourteen6 from "../../assets/row14/6.png";
+import RowFourteen7 from "../../assets/row14/7.png";
+import RowFourteen8 from "../../assets/row14/8.png";
+import RowFourteen9 from "../../assets/row14/9.png";
+import RowFourteen10 from "../../assets/row14/10.png";
+import RowFourteen11 from "../../assets/row14/11.png";
+import RowFourteen12 from "../../assets/row14/12.png";
+import RowFourteen13 from "../../assets/row14/13.png";
+import RowFourteen14 from "../../assets/row14/14.png";
+import RowFourteen15 from "../../assets/row14/15.png";
+import RowFourteen16 from "../../assets/row14/16.png";
+import RowFourteen17 from "../../assets/row14/17.png";
+import RowFourteen18 from "../../assets/row14/18.png";
+
+// row fifteen
+
+import RowFifteen1 from "../../assets/row15/1.png";
+import RowFifteen2 from "../../assets/row15/2.png";
+import RowFifteen3 from "../../assets/row15/3.png";
+
+// row sixteen
+
+import RowSixteen1 from "../../assets/row16/1.jpeg";
+import RowSixteen2 from "../../assets/row16/2.jpeg";
+import RowSixteen3 from "../../assets/row16/3.jpeg";
+import RowSixteen4 from "../../assets/row16/4.jpeg";
+import RowSixteen5 from "../../assets/row16/5.jpeg";
+import RowSixteen6 from "../../assets/row16/6.jpeg";
+
+// row seventeen
+
+import RowSeventeen1 from "../../assets/row17/1.png";
+import RowSeventeen2 from "../../assets/row17/2.png";
+import RowSeventeen3 from "../../assets/row17/3.png";
+
+// row eighteen
+
+import RowEighteen1 from "../../assets/row18/1.jpeg";
+import RowEighteen2 from "../../assets/row18/2.jpeg";
+import RowEighteen3 from "../../assets/row18/3.jpeg";
+import RowEighteen4 from "../../assets/row18/4.jpeg";
+import RowEighteen5 from "../../assets/row18/5.jpeg";
+import RowEighteen6 from "../../assets/row18/6.jpeg";
+
+// row nineteen
+
+import RowNineteen1 from "../../assets/row19/1.png";
+import RowNineteen2 from "../../assets/row19/2.png";
+import RowNineteen3 from "../../assets/row19/3.png";
+
+// row twenty
+
+import RowTwenty1 from "../../assets/row20/1.jpeg";
+import RowTwenty2 from "../../assets/row20/2.jpeg";
+import RowTwenty3 from "../../assets/row20/3.jpeg";
+import RowTwenty4 from "../../assets/row20/4.jpeg";
+import RowTwenty5 from "../../assets/row20/5.jpeg";
+import RowTwenty6 from "../../assets/row20/6.jpeg";
+
+// row twenty one
+
+import RowTwentyOne1 from "../../assets/row21/1.png";
+import RowTwentyOne2 from "../../assets/row21/2.png";
+import RowTwentyOne3 from "../../assets/row21/3.png";
+
+// row twenty two
+
+import RowTwentyTwo1 from "../../assets/row22/1.jpeg";
+import RowTwentyTwo2 from "../../assets/row22/2.jpeg";
+import RowTwentyTwo3 from "../../assets/row22/3.jpeg";
+import RowTwentyTwo4 from "../../assets/row22/4.jpeg";
+import RowTwentyTwo5 from "../../assets/row22/5.jpeg";
+import RowTwentyTwo6 from "../../assets/row22/6.jpeg";
+
+// row twenty three
+
+import RowTwentyThree1 from "../../assets/row23/1.jpeg";
+import RowTwentyThree2 from "../../assets/row23/2.jpeg";
+import RowTwentyThree3 from "../../assets/row23/3.jpeg";
+import RowTwentyThree4 from "../../assets/row23/4.jpeg";
+import RowTwentyThree5 from "../../assets/row23/5.jpeg";
+import RowTwentyThree6 from "../../assets/row23/6.jpeg";
+
 export {
   HeaderSlide,
   StarLogo,
@@ -265,4 +377,80 @@ export {
   RowEleven7,
   RowEleven8,
   Brand_days,
+  RowTwelve1,
+  RowTwelve2,
+  RowTwelve3,
+  RowTwelve4,
+  RowTwelve5,
+  RowTwelve6,
+  RowTwelve7,
+  RowTwelve8,
+  RowTwelve9,
+  RowTwelve10,
+  RowThirteen1,
+  RowThirteen2,
+  RowThirteen3,
+  RowThirteen4,
+  RowThirteen5,
+  RowThirteen6,
+  RowFourteen1,
+  RowFourteen2,
+  RowFourteen3,
+  RowFourteen4,
+  RowFourteen5,
+  RowFourteen6,
+  RowFourteen7,
+  RowFourteen8,
+  RowFourteen9,
+  RowFourteen10,
+  RowFourteen11,
+  RowFourteen12,
+  RowFourteen13,
+  RowFourteen14,
+  RowFourteen15,
+  RowFourteen16,
+  RowFourteen17,
+  RowFourteen18,
+  RowFifteen1,
+  RowFifteen2,
+  RowFifteen3,
+  RowSixteen1,
+  RowSixteen2,
+  RowSixteen3,
+  RowSixteen4,
+  RowSixteen5,
+  RowSixteen6,
+  RowSeventeen1,
+  RowSeventeen2,
+  RowSeventeen3,
+  RowEighteen1,
+  RowEighteen2,
+  RowEighteen3,
+  RowEighteen4,
+  RowEighteen5,
+  RowEighteen6,
+  RowNineteen1,
+  RowNineteen2,
+  RowNineteen3,
+  RowTwenty1,
+  RowTwenty2,
+  RowTwenty3,
+  RowTwenty4,
+  RowTwenty5,
+  RowTwenty6,
+  RowTwentyOne1,
+  RowTwentyOne2,
+  RowTwentyOne3,
+  RowTwentyTwo1,
+  RowTwentyTwo2,
+  RowTwentyTwo3,
+  RowTwentyTwo4,
+  RowTwentyTwo5,
+  RowTwentyTwo6,
+  RowTwentyThree1,
+  RowTwentyThree2,
+  RowTwentyThree3,
+  RowTwentyThree4,
+  RowTwentyThree5,
+  RowTwentyThree6,
 };

@@ -1,17 +1,17 @@
-.rownine {
+.rowtwelve {
   background-color: white;
   width: 90%;
   margin: auto;
   margin-top: 30px;
 }
 
-.rownine h3 {
+.rowtwelve h3 {
   padding: 3px 10px;
   font-family: var(--bold-font);
   font-weight: 400;
 }
 
-.rownine__cards {
+.rowtwelve__cards {
   display: flex;
   justify-content: space-between;
   overflow: auto;
@@ -20,6 +20,6 @@
   position: relative;
 }
 
-.rownine__cards::-webkit-scrollbar {
+.rowtwelve__cards::-webkit-scrollbar {
   display: none;
 }

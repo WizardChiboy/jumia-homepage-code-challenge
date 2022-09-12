@@ -1,0 +1,30 @@
+.rownineteen {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px 0px;
+}
+
+.rownineteen h3 {
+  text-align: center;
+  padding: 10px;
+  font-family: var(--bold-font);
+  font-weight: 400;
+}
+
+.rownineteen__ads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rownineteen__ads img {
+  width: 33%;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.rownineteen__ads img:hover {
+  transform: scale(1.01);
+}

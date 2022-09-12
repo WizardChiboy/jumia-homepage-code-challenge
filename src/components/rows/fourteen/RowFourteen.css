@@ -1,0 +1,34 @@
+.rowfourteen {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.rowfourteen h3 {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: var(--bold-font);
+  font-weight: 400;
+}
+
+.rowfourteen__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowfourteen__card {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.rowfourteen__card img {
+  width: 100%;
+}
+
+.rowfourteen__card:hover {
+  transform: scale(1.01);
+}
