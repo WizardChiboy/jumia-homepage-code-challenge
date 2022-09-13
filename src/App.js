@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Banner from "./components/banner/Banner";
 import Banner2 from "./components/banner/Banner2";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import RowEight from "./components/rows/eight/RowEight";
 import RowEighteen from "./components/rows/eighteen/RowEighteen";
@@ -74,8 +75,7 @@ function App() {
       <RowTwentyOne />
       <RowTwentyTwo />
       <RowTwentyThree />
-
-      {/* scroll to top */}
+      <Footer />
     </div>
   );
 }
