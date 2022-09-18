@@ -42,3 +42,14 @@
 .rowone__next:hover {
   scale: 1;
 }
+
+@media (max-width: 800px) {
+  .rowone__next,
+  .rowone__prev {
+    display: none;
+  }
+
+  .rowone > div img {
+    width: 50px;
+  }
+}

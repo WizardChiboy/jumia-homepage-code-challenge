@@ -21,3 +21,16 @@
 .rowtwo__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rowtwo {
+    margin-top: 5px;
+  }
+  .rowtwo h3 {
+    font-size: 12px;
+  }
+
+  .rowtwo__cards {
+    width: 100%;
+  }
+}

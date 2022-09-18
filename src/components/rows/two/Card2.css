@@ -41,3 +41,39 @@
   font-weight: 800;
   text-decoration: line-through;
 }
+
+@media (max-width: 800px) {
+  .card__two {
+    width: 60%;
+  }
+
+  .card__two__img {
+    width: 100%;
+  }
+
+  .card__two__img img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .card__two__tag {
+    padding: 3px;
+    top: 0;
+    left: 70px;
+    font-size: 10px;
+  }
+
+  .card__two__name {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .card__two__price {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .card__two__price__slash {
+    display: none;
+  }
+}

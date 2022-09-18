@@ -10,6 +10,7 @@ import {
 import {
   ArrowDropDownIcon,
   HelpOutlineIcon,
+  MenuIcon,
   PersonIcon,
   SearchIcon,
   ShoppingCartIcon,
@@ -69,6 +70,26 @@ function Header() {
               <ShoppingCartIcon />
               <p>cart</p>
             </div>
+          </div>
+        </div>
+
+        <div className="header__layer__three__mobile">
+          <div className="header__layer__three__mobile__toggle">
+            <MenuIcon />
+          </div>
+
+          <div className="header__layer__three__logo">
+            <img src={JumiaLogo} alt="jumia logo" />
+          </div>
+
+          <div className="header__layer__three__cta__account">
+            <PersonIcon />
+            <p>account</p>
+          </div>
+
+          <div className="header__layer__three__cta__cart">
+            <ShoppingCartIcon />
+            <p>cart</p>
           </div>
         </div>
       </div>

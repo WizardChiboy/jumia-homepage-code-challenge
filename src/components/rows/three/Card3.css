@@ -51,3 +51,39 @@
   font-size: 12px;
   margin: 5px 0px;
 }
+
+@media (max-width: 800px) {
+  .card__three {
+    width: 60%;
+  }
+
+  .card__three__img {
+    width: 100%;
+  }
+
+  .card__three__img img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .card__three__tag {
+    padding: 3px;
+    top: 0;
+    left: 70px;
+    font-size: 10px;
+  }
+
+  .card__three__name {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .card__three__price {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .card__three__price__slash {
+    display: none;
+  }
+}

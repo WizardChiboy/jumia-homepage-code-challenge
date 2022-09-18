@@ -43,3 +43,21 @@
   align-items: center;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .rowthree {
+    margin-top: 5px;
+  }
+  .rowthree h3 {
+    font-size: 12px;
+  }
+
+  .rowthree__cards {
+    width: 100%;
+  }
+
+  .rowthree__header,
+  .rowthree__header__flash {
+    font-size: 10px;
+  }
+}

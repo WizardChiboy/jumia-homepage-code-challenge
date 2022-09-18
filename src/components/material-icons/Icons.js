@@ -18,6 +18,8 @@ import MoreIcon from "@mui/icons-material/More";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 export {
   SearchIcon,
@@ -40,4 +42,6 @@ export {
   ChevronLeftIcon,
   ChevronRightIcon,
   KeyboardArrowUpIcon,
+  MenuIcon,
+  CloseIcon,
 };

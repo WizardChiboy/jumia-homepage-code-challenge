@@ -62,7 +62,7 @@ function App() {
       <RowNine />
       <RowTen />
       <RowEleven />
-      <Banner2 />
+      {/* <Banner2 /> */}
       <RowTwelve />
       <RowThirteen />
       <RowFourteen />

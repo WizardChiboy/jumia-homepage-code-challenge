@@ -12,3 +12,9 @@
   margin-left: 5px;
   font-family: var(--bold-font);
 }
+
+@media (max-width: 800px) {
+  .timer__show p {
+    font-size: 10px;
+  }
+}
