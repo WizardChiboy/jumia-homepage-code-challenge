@@ -25,3 +25,17 @@
   text-transform: capitalize;
   font-family: var(--bold-font);
 }
+
+@media (max-width: 800px) {
+  .rowsix {
+    width: 100%;
+  }
+
+  .rowsix__card p {
+    display: none;
+  }
+
+  .rowsix__card img {
+    width: 80%;
+  }
+}

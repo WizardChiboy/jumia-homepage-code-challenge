@@ -25,6 +25,7 @@
 @media (max-width: 800px) {
   .rowtwo {
     margin-top: 5px;
+    width: 100%;
   }
   .rowtwo h3 {
     font-size: 12px;

@@ -15,8 +15,12 @@
 
 .rowfour__ads {
   display: flex;
-  flex-wrap: wrap;
+  overflow: auto;
   justify-content: space-between;
+}
+
+.rowfour__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .rowfour__ads img {
@@ -27,4 +31,23 @@
 
 .rowfour__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .rowfour {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowfour h3 {
+    font-size: 12px;
+  }
+
+  .rowfour__cards {
+    width: 100%;
+  }
+
+  .rowfour__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

@@ -23,3 +23,22 @@
 .rowthirteen__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rowthirteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowthirteen h3 {
+    font-size: 12px;
+  }
+
+  .rowthirteen__cards {
+    width: 100%;
+  }
+
+  .rowthirteen__header,
+  .rowthirteen__header__flash {
+    font-size: 10px;
+  }
+}

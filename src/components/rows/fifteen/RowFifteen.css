@@ -15,8 +15,12 @@
 
 .rowfifteen__ads {
   display: flex;
-  flex-wrap: wrap;
+  overflow: auto;
   justify-content: space-between;
+}
+
+.rowfifteen__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .rowfifteen__ads img {
@@ -27,4 +31,20 @@
 
 .rowfifteen__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .rowfifteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .rowfifteen h3 {
+    font-size: 12px;
+  }
+
+  .rowfifteen__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

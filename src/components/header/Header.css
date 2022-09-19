@@ -133,7 +133,7 @@
   color: var(--orange);
 }
 
-.header__layer__three__mobile {
+.header__layer__three__mobile__main {
   display: none;
 }
 
@@ -143,6 +143,10 @@
   .header__logos,
   .header__layer__three {
     display: none;
+  }
+
+  .header__layer__three__mobile__main {
+    display: block;
   }
 
   .header__layer__three__mobile {
@@ -163,5 +167,61 @@
 
   .header__layer__three__mobile p {
     display: none;
+  }
+
+  .header__layer__three__mobile__main .header__layer__three__cta__search {
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .header__layer__three__mobile__main .header__layer__three__cta__search input {
+    padding: 5px;
+    background-color: transparent;
+  }
+
+  .header__layer__three__mobile__main
+    .header__layer__three__mobile__main__nav
+    .banner__links {
+    display: block;
+    width: 80%;
+    position: fixed;
+    z-index: 9999;
+    padding: 20px 10px;
+    top: 0;
+  }
+
+  .header__layer__three__mobile__main
+    .header__layer__three__mobile__main__nav
+    .banner__links
+    .header__layer__three__logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .header__layer__three__mobile__main
+    .header__layer__three__mobile__main__nav
+    .banner__links
+    .header__layer__three__logo
+    img {
+    width: 40%;
+  }
+
+  .header__layer__three__mobile__main
+    .header__layer__three__mobile__main__nav
+    .banner__links
+    .MuiSvgIcon-root {
+    font-size: 30px;
+  }
+
+  .header__layer__three__mobile__main
+    .header__layer__three__mobile__main__nav
+    .banner__links
+    a {
+    font-size: 14px;
   }
 }

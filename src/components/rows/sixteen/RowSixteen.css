@@ -23,3 +23,22 @@
 .rowsixteen__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rowsixteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowsixteen h3 {
+    font-size: 12px;
+  }
+
+  .rowsixteen__cards {
+    width: 100%;
+  }
+
+  .rowsixteen__header,
+  .rowsixteen__header__flash {
+    font-size: 10px;
+  }
+}

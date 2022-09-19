@@ -47,6 +47,7 @@
 @media (max-width: 800px) {
   .rowthree {
     margin-top: 5px;
+    width: 100%;
   }
   .rowthree h3 {
     font-size: 12px;

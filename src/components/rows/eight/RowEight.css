@@ -15,8 +15,11 @@
 
 .roweight__ads {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  overflow: auto;
+}
+
+.roweight__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .roweight__ads img {
@@ -27,4 +30,20 @@
 
 .roweight__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .roweight {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .roweight h3 {
+    font-size: 12px;
+  }
+
+  .roweight__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

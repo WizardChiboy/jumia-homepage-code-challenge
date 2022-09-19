@@ -23,3 +23,22 @@
 .roweighteen__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .roweighteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .roweighteen h3 {
+    font-size: 12px;
+  }
+
+  .roweighteen__cards {
+    width: 100%;
+  }
+
+  .roweighteen__header,
+  .roweighteen__header__flash {
+    font-size: 10px;
+  }
+}

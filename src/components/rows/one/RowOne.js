@@ -22,9 +22,9 @@ function RowOne() {
   return (
     <>
       <div className="rowone">
-        <div className="rowone__prev">
+        {/* <div className="rowone__prev">
           <Prev />
-        </div>
+        </div> */}
 
         <div>
           <a href="">
@@ -104,9 +104,9 @@ function RowOne() {
           </a>
         </div>
 
-        <div className="rowone__next">
+        {/* <div className="rowone__next">
           <Next />
-        </div>
+        </div> */}
       </div>
     </>
   );

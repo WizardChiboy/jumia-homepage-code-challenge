@@ -23,3 +23,22 @@
 .rowfive__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rowfive {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowfive h3 {
+    font-size: 12px;
+  }
+
+  .rowfive__cards {
+    width: 100%;
+  }
+
+  .rowfive__header,
+  .rowfive__header__flash {
+    font-size: 10px;
+  }
+}

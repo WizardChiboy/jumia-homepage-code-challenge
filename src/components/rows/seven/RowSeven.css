@@ -40,3 +40,22 @@
 .rowseven__card:hover {
   transform: scale(1.01);
 }
+
+@media (max-width: 800px) {
+  .rowseven {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .rowseven h3 {
+    font-size: 12px;
+  }
+
+  .rowseven__card {
+    width: 30%;
+  }
+
+  .rowseven__card p {
+    font-size: 10px;
+  }
+}

@@ -15,8 +15,12 @@
 
 .rowtwentyone__ads {
   display: flex;
-  flex-wrap: wrap;
+  overflow: auto;
   justify-content: space-between;
+}
+
+.rowtwentyone__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .rowtwentyone__ads img {
@@ -27,4 +31,19 @@
 
 .rowtwentyone__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .rowtwentyone {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowtwentyone h3 {
+    font-size: 12px;
+  }
+
+  .rowtwentyone__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

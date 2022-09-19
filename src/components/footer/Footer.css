@@ -8,6 +8,7 @@
 .footer__section__one h3 {
   font-family: var(--bold-font);
   margin: 20px 12px;
+  padding-top: 10px;
 }
 
 .footer__section__one p {
@@ -45,4 +46,23 @@
 .footer__section__two__first img {
   width: 40%;
   margin: 10px 0px;
+}
+
+@media (max-width: 800px) {
+  .footer__section__one {
+    width: 100%;
+  }
+
+  .footer__section__one p {
+    font-size: 12px;
+  }
+
+  .footer__section__two {
+    display: block;
+  }
+
+  .footer__section__two > div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }

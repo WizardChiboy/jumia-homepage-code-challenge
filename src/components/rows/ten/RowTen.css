@@ -15,8 +15,12 @@
 
 .rowten__ads {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  overflow: auto;
+}
+
+.rowten__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .rowten__ads img {
@@ -27,4 +31,20 @@
 
 .rowten__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .rowten {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .rowten h3 {
+    font-size: 12px;
+  }
+
+  .rowten__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

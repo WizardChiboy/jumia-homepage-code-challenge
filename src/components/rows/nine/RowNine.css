@@ -23,3 +23,22 @@
 .rownine__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rownine {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rownine h3 {
+    font-size: 12px;
+  }
+
+  .rownine__cards {
+    width: 100%;
+  }
+
+  .rownine__header,
+  .rownine__header__flash {
+    font-size: 10px;
+  }
+}

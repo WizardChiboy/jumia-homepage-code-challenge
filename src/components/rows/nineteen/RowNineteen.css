@@ -15,8 +15,12 @@
 
 .rownineteen__ads {
   display: flex;
-  flex-wrap: wrap;
+  overflow: auto;
   justify-content: space-between;
+}
+
+.rownineteen__ads::-webkit-scrollbar {
+  display: none;
 }
 
 .rownineteen__ads img {
@@ -27,4 +31,19 @@
 
 .rownineteen__ads img:hover {
   transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
+  .rownineteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rownineteen h3 {
+    font-size: 12px;
+  }
+
+  .rownineteen__ads img {
+    width: 80%;
+    margin: 5px;
+  }
 }

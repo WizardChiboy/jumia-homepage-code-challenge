@@ -23,3 +23,22 @@
 .roweleven__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .roweleven {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .roweleven h3 {
+    font-size: 12px;
+  }
+
+  .roweleven__cards {
+    width: 100%;
+  }
+
+  .roweleven__header,
+  .roweleven__header__flash {
+    font-size: 10px;
+  }
+}

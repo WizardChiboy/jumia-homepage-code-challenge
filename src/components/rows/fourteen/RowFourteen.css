@@ -32,3 +32,19 @@
 .rowfourteen__card:hover {
   transform: scale(1.01);
 }
+
+@media (max-width: 800px) {
+  .rowfourteen {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .rowfourteen h3 {
+    font-size: 12px;
+  }
+
+  .rowfourteen__card {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}

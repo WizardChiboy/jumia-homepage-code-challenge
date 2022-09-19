@@ -10,3 +10,16 @@
   padding: 10px;
   background-color: white;
 }
+
+.banner2 img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .banner2 {
+    width: 100%;
+  }
+  .banner2 h3 {
+    font-size: 12px;
+  }
+}

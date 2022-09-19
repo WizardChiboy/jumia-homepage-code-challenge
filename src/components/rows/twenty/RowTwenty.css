@@ -23,3 +23,22 @@
 .rowtwenty__cards::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 800px) {
+  .rowtwenty {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .rowtwenty h3 {
+    font-size: 12px;
+  }
+
+  .rowtwenty__cards {
+    width: 100%;
+  }
+
+  .rowtwenty__header,
+  .rowtwenty__header__flash {
+    font-size: 10px;
+  }
+}

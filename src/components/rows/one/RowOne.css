@@ -44,6 +44,11 @@
 }
 
 @media (max-width: 800px) {
+  .rowone {
+    margin-top: 0px;
+    width: 100%;
+  }
+
   .rowone__next,
   .rowone__prev {
     display: none;
