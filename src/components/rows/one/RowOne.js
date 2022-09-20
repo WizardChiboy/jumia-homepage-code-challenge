@@ -1,6 +1,5 @@
 import React from "react";
-import Next from "../../button/Next";
-import Prev from "../../button/Prev";
+
 import {
   RowOne1,
   RowOne10,
